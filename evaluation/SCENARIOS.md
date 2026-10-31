@@ -2,11 +2,11 @@
 
 **Illustrative test inputs. Not executed.** These facts describe a fictional environment and are not copied from private operational notes.
 
-## Source A � Sample knowledge synchronization procedure, revision 1
+## Source A — Sample knowledge synchronization procedure, revision 1
 
 The example service `sample-kb-worker` indexes approved Markdown notes every ten minutes. The source folder is authoritative and the search index is derived. If an answer appears stale, first compare the source revision and the latest completed indexing event. Reindexing changes state and requires operator approval.
 
-## Source B � Sample recovery policy, revision 1
+## Source B — Sample recovery policy, revision 1
 
 When a service's current health is unknown, report that it has not been checked. Do not infer current health from this document. No automatic cloud fallback is configured in this fictional design. A documented policy is not proof that an offline test passed.
 

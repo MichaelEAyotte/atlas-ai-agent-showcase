@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="380" viewBox="0 0 1000 380" role="img" aria-labelledby="title desc">
-<title id="title">Screenshot placeholder � no application capture included</title><desc id="desc">A labeled empty frame reserves space for a future synthetic question, answer and supporting passage. This is not test evidence.</desc>
+<title id="title">Screenshot placeholder — no application capture included</title><desc id="desc">A labeled empty frame reserves space for a future synthetic question, answer and supporting passage. This is not test evidence.</desc>
 <rect width="1000" height="380" rx="18" fill="#F1F5F9"/><rect x="28" y="28" width="944" height="324" rx="12" fill="none" stroke="#64748B" stroke-width="2" stroke-dasharray="10 8"/>
-<text x="500" y="125" text-anchor="middle" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="#0B1324">PLACEHOLDER � NO SCREENSHOT CAPTURED</text>
+<text x="500" y="125" text-anchor="middle" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="#0B1324">PLACEHOLDER — NO SCREENSHOT CAPTURED</text>
 <text x="500" y="181" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#334155">Future image: synthetic question, answer and supporting passage</text>
 <text x="500" y="230" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#334155">No private documents, accounts, routes, hostnames or operational identifiers</text>
 <text x="500" y="291" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#334155">Illustrative review placeholder. Not an application screenshot or a test result.</text>

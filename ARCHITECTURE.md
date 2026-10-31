@@ -42,7 +42,7 @@ The core baseline does not require the optional documentation website. Public do
 
 ## Runtime ambiguity
 
-Older architecture notes name one smaller Qwen model; later acceptance records use a Qwen 8B configuration and a separate local-provider prefix. Those records do not justify a single-host deployment claim or a universal current model version. The public diagram therefore says �local Ollama provider.� Future evidence should tie each run to the exact model, provider, configuration and timestamp.
+Older architecture notes name one smaller Qwen model; later acceptance records use a Qwen 8B configuration and a separate local-provider prefix. Those records do not justify a single-host deployment claim or a universal current model version. The public diagram therefore says “local Ollama provider.” Future evidence should tie each run to the exact model, provider, configuration and timestamp.
 
 ## Planned action boundary
 
