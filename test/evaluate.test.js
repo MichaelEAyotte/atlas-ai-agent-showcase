@@ -12,3 +12,9 @@ test('unanswerable case must abstain and schema errors cannot pass',()=>{
  assert.equal(evaluate({answerable:false},response(),docs).passed,false);
  assert.throws(()=>evaluate({},response(),docs),TypeError);
 });
+
+test('malformed corpus and citations fail explicitly even for abstention',()=>{
+ for(const bad of [null,{}, {id:' ',text:'x',approved:true,kind:'knowledge'}, {id:'x',text:1,approved:true,kind:'knowledge'}]) assert.throws(()=>evaluate({answerable:false},{abstained:true,citations:[]},[bad]),TypeError);
+ const a=response();a.citations=[null];assert.throws(()=>evaluate({answerable:true},a,docs),TypeError);
+ assert.throws(()=>evaluate({answerable:true},response(),[docs[0],docs[0]]),/Duplicate/);
+});

@@ -1,6 +1,9 @@
 'use strict';
 function evaluate(scenario, response, corpus) {
  if (!scenario || typeof scenario.answerable!=='boolean' || !response || typeof response.abstained!=='boolean' || !Array.isArray(response.citations) || !Array.isArray(corpus)) throw new TypeError('Invalid evaluation schema');
+ const record = value => value !== null && typeof value === 'object' && !Array.isArray(value);
+ const id = value => typeof value === 'string' && value.trim().length > 0;
+ if(corpus.some(d => !record(d) || !id(d.id) || typeof d.text !== 'string' || typeof d.approved !== 'boolean' || !['knowledge','test'].includes(d.kind)) || response.citations.some(c => !record(c) || !id(c.documentId) || typeof c.quote !== 'string')) throw new TypeError('Invalid evidence schema');
  const ids=corpus.map(d=>d.id); if(new Set(ids).size!==ids.length) throw new Error('Duplicate document ID');
  const allowed=new Map(corpus.filter(d=>d.approved===true && d.kind==='knowledge').map(d=>[d.id,d]));
  const errors=[];

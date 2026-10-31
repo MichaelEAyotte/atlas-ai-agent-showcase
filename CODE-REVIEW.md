@@ -7,3 +7,7 @@ It checks approved-source membership, excludes test worksheets from the knowledg
 Run `npm test` and `npm run demo`. Replace fictional cases only in a private evaluation workspace after reviewing the corpus. No Open WebUI endpoint, model call, provider route, credentials or network isolation operation is included. Passing these unit tests establishes neither retrieval quality nor offline operation. The earlier documented LOCAL acceptance results remain exactly as described in TESTING.md.
 
 The deliberate lesson is that a plausible answer or a citation label alone is insufficient evidence. This code makes structural checks reproducible while keeping semantic support and runtime acceptance explicit. License selection remains pending owner approval.
+
+## Authorship and evidence boundary
+
+The executable module, example and standalone tests are new AI-assisted synthetic demonstration code prepared during the owner-directed GitHub initiative. They are not an export of the operating system or evidence of an independently implemented production service. The owner must review and be able to explain this code before presenting it.
