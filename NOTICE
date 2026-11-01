@@ -1,0 +1,9 @@
+Required Notice: Copyright (c) 2026 Michael E. Ayotte (https://github.com/MichaelEAyotte)
+
+Michael E. Ayotte offers the PolyForm Noncommercial License 1.0.0 only for the original, protectable material he owns or is authorized to license in this repository: source, documentation, tests, fictional examples and the sanitized logical diagram. The official license text is in LICENSE and is unmodified.
+
+This notice does not claim copyright in uncopyrightable AI-generated portions or facts. It does not cover third-party software, models, product names, external GitHub Actions, private production repositories or client material. Open WebUI, Ollama, Obsidian, Nextcloud, n8n, models and indexing utilities retain their respective licenses; their implementations are not bundled here.
+
+The earlier MIT release and its existing permissions remain preserved as explained in PUBLICATION.md. This notice does not retrospectively revoke those permissions or create newly exclusive commercial rights over copies already licensed under MIT.
+
+For commercial use outside PolyForm's permitted purposes, contact Michael E. Ayotte through https://github.com/MichaelEAyotte for separate written permission. The official license defines permitted purposes; this notice adds no restriction to them. Contributor-owned material requires separate written rights before it can be offered under a separate commercial license.

@@ -1,6 +1,6 @@
 # Publication scope and verification record
 
-The owner authorized incorporating the reviewed work into `main` without rewriting history and publishing this repository under MIT for eligible owner-controlled original material. This supersedes the earlier pending-approval note. The release covers this sanitized case study and its synthetic evaluator.
+The initial public release incorporated the reviewed work into `main` under MIT for eligible owner-controlled original material, without rewriting history. That release remains preserved. The owner has since selected the unmodified PolyForm Noncommercial License 1.0.0 for prospective distributions of eligible material under the current policy. The repository remains public and covers the same sanitized case study and synthetic evaluator.
 
 ## Evidence and scope
 
@@ -14,10 +14,18 @@ Local Markdown targets are checked for the release. The architecture SVG is an o
 
 ## License and provenance
 
-The [MIT License](LICENSE), copyright **2026 Michael E. Ayotte**, applies to the eligible owner-controlled source, tests, fictional examples, original diagram and documentation included here. The owner explicitly approved that license and publication. [Source provenance and authorship](CODE-REVIEW.md) retain the AI-assisted synthetic-code disclosure and historical-evidence limits.
+The current [PolyForm Noncommercial License 1.0.0](LICENSE) is the unmodified official text. It applies only to the owner-controlled, protectable source, tests, fictional examples, original diagram and documentation identified in [NOTICE](NOTICE). Copyright holder: **Michael E. Ayotte**. This is source-available software, not OSI-approved open source. The official license defines permitted purposes; this documentation does not narrow them. Commercial use outside those permitted purposes requires separate written permission from [Michael E. Ayotte](https://github.com/MichaelEAyotte).
 
-The current files and reachable source history were reviewed for bundled third-party implementations and notices. No third-party package or template implementation is bundled, and no pre-existing license or required third-party notice has been removed. Open WebUI, Ollama, Obsidian, Nextcloud, n8n, models and indexing utilities remain separate products under their respective licenses. Their names do not imply endorsement, and this license does not relicense them, private production repositories or client material. Retain the copyright and permission notice when reusing the licensed material.
+The current files and reachable source history were reviewed for bundled third-party implementations and notices. No third-party package or template implementation is bundled. Open WebUI, Ollama, Obsidian, Nextcloud, n8n, models, indexing utilities and external GitHub Actions retain their respective licenses and are excluded. This policy does not relicense private production repositories or client material, imply product endorsement, or claim copyright in uncopyrightable AI-generated portions. [Source provenance and authorship](CODE-REVIEW.md) retain the AI-assisted synthetic-code disclosure and historical-evidence limits. Distributions under PolyForm must comply with its notice requirements, including the separate required notice.
+
+## Earlier MIT release
+
+The initial MIT release is preserved at commit [`a2b51612b32190500f922c36978884cda3d04cf7`](https://github.com/MichaelEAyotte/atlas-ai-agent-showcase/tree/a2b51612b32190500f922c36978884cda3d04cf7), including its [MIT license and copyright notice](https://github.com/MichaelEAyotte/atlas-ai-agent-showcase/blob/a2b51612b32190500f922c36978884cda3d04cf7/LICENSE).
+
+Previous MIT permissions remain in effect, including commercial use and redistribution under MIT's terms. Unchanged code remains available from that MIT-licensed history. Replacing the current license file does not retrospectively revoke those permissions or create newly exclusive commercial rights over those copies. The new distribution policy applies prospectively to distributions offered under PolyForm; it does not replace existing MIT grants. Repository history and the original MIT notice remain preserved in the linked commit.
+
+[Contribution terms](CONTRIBUTING.md) require authorized submissions under the same PolyForm terms for eligible material. Contributors retain their own copyright. Contribution alone does not assign copyright or authorize separate commercial licensing; contributor-owned material requires separate written rights before it can be licensed commercially.
 
 ## Release verification
 
-The release procedure rechecks the remote heads, final diff, tests, internal links, reachable-history privacy/security scan and test-only workflow before moving `main` and changing visibility. It then verifies the default README, license, workflow result and anonymous repository access. A passing synthetic evaluator is not an ATLAS runtime or production-readiness certification.
+The initial release verified the default README, MIT license, test-only workflow and anonymous repository access. The license correction checks the official license bytes, final diff, tests, demo and documentation links while preserving implementation files, workflow and public visibility. It does not rerun live-model acceptance or change the historical security findings. A passing synthetic evaluator is not an ATLAS runtime or production-readiness certification.

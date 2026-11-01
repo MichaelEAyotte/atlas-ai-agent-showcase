@@ -66,4 +66,6 @@ The standalone tests run in a test-only GitHub Actions workflow with read-only r
 
 ## License
 
-The owner-controlled original code, tests, fictional examples, documentation and diagrams in this repository are available under the [MIT License](LICENSE), copyright Michael E. Ayotte. Referenced third-party products remain under their own licenses; no product runtime is bundled or relicensed here. See the [publication scope and verification record](PUBLICATION.md).
+The current owner-controlled, protectable source, tests, fictional examples, documentation and diagram are source-available under the [PolyForm Noncommercial License 1.0.0](LICENSE), with the [required notice and exclusions](NOTICE). This is not OSI-approved open source. Noncommercial use, modification and redistribution are permitted subject to the license. Commercial use outside the license's permitted purposes requires separate written permission from copyright holder [Michael E. Ayotte](https://github.com/MichaelEAyotte); the official license defines those permitted purposes.
+
+Earlier MIT permissions, including commercial use and redistribution under MIT's terms, remain in effect; unchanged code remains available from the MIT-licensed history. See the [publication and license history](PUBLICATION.md) and [contribution terms](CONTRIBUTING.md).
