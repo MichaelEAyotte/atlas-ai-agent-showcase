@@ -2,6 +2,7 @@
   "name": "atlas-ai-agent-showcase",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "description": "Synthetic retrieval evidence evaluator; not a live model benchmark.",
   "scripts": {
     "test": "node --test",

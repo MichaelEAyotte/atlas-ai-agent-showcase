@@ -1,6 +1,6 @@
 # A.T.L.A.S. AI Agent
 
-A local documentation and troubleshooting assistant built around Open WebUI, Ollama and an Obsidian knowledge base.
+A sanitized case study of a local documentation and troubleshooting assistant built around Open WebUI, Ollama and an Obsidian knowledge base, with a runnable synthetic evidence evaluator.
 
 **Status:** working development baseline with documented functional acceptance results. Offline independence, broader security acceptance and administrative automation remain unfinished. Evidence reviewed October 31, 2026; this portfolio review did not operate the live assistant.
 
@@ -46,7 +46,7 @@ The more recent retrieval pass does not erase the earlier diagnostic weaknesses.
 
 Read the [architecture](ARCHITECTURE.md), [testing methodology and recorded results](TESTING.md), [engineering lessons](ENGINEERING-NOTES.md), and [limitations](LIMITATIONS.md). The [synthetic evaluation packet](evaluation/SCENARIOS.md) is usable without access to the private environment. It is an evaluation design, not a fabricated test transcript.
 
-[Screenshot placeholder](assets/screenshot-placeholder.svg): no operational screenshot is included. [Capture requirements](assets/SCREENSHOTS.md) define how a future safe image can be added.
+No operational screenshot is included. [Capture requirements](assets/SCREENSHOTS.md) define how a future safe image can be added.
 
 
 ## Run the code in this repository
@@ -58,10 +58,12 @@ npm test
 npm run demo
 ```
 
-See [source provenance, scope and evaluation](CODE-REVIEW.md). Tests exercise the standalone code, not the private production system. This repository has a clean history and no deployment workflow. It remains private pending publication and license approval.
+See [source provenance, scope and evaluation](CODE-REVIEW.md). The executable code is a new AI-assisted synthetic evaluator; it does not run ATLAS or call a model. Tests exercise that standalone code, not the private system. The repository has no deployment workflow.
 
 ## Review and maintenance
 
-The standalone tests run in a test-only GitHub Actions workflow with read-only repository access, no deployment and no production secrets. They do not establish live-system acceptance. Report a suspected sensitive-data exposure privately to the repository owner; do not place the sensitive value in an issue. Public release and licensing require owner review.
+The standalone tests run in a test-only GitHub Actions workflow with read-only repository access, no deployment and no production secrets. They do not establish live-system acceptance. Report a suspected sensitive-data exposure privately to the [repository owner](https://github.com/MichaelEAyotte); do not place the sensitive value in an issue.
 
-[Publication decision, licensing recommendation and final release gates](PUBLICATION.md).
+## License
+
+The owner-controlled original code, tests, fictional examples, documentation and diagrams in this repository are available under the [MIT License](LICENSE), copyright Michael E. Ayotte. Referenced third-party products remain under their own licenses; no product runtime is bundled or relicensed here. See the [publication scope and verification record](PUBLICATION.md).

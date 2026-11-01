@@ -1,23 +1,23 @@
-# Publication decision — October 31, 2026
+# Publication scope and verification record
 
-**Prepared for owner approval; repository remains PRIVATE.** Recommended initial release candidate on `audit/prelaunch-2026-10-31`. Do not change visibility or merge the branch until approved.
+The owner authorized incorporating the reviewed work into `main` without rewriting history and publishing this repository under MIT for eligible owner-controlled original material. This supersedes the earlier pending-approval note. The release covers this sanitized case study and its synthetic evaluator.
 
 ## Evidence and scope
 
-The evaluator is newly created AI-assisted synthetic demonstration code, not an exported ATLAS runtime. Historical LOCAL-01/02 evidence is documented, while LOCAL-03 remains blocked. These unit tests do not prove retrieval quality, network isolation or live acceptance.
+The evaluator is newly created AI-assisted synthetic demonstration code, not an exported ATLAS runtime. Historical LOCAL-01/02 evidence is documented, while LOCAL-03 remains blocked. These unit tests do not prove retrieval quality, network isolation or live acceptance. No fresh Ollama or Open WebUI acceptance run was performed for publication.
 
-Executed `npm test`: **5 passing tests**. Executed `npm run demo`: successful. Node 24.19.0. No npm runtime or development dependencies are declared; there is no dependency tree to audit with npm. GitHub Actions is test-only, uses pinned actions, read-only contents permission and disabled persisted checkout credentials. Actionlint passed. Runtime and hosted runner updates remain external dependencies.
+The release preparation reran `npm test` with **5 passing tests** and `npm run demo` successfully on Node 24.19.0. No npm runtime or development dependencies are declared. GitHub Actions runs only those two commands, with pinned actions, read-only contents permission and disabled persisted checkout credentials. Actionlint passed. Runtime and hosted runner updates remain external dependencies. The npm `private` flag remains enabled; GitHub publication does not publish an npm package.
 
-The refreshed reachable history contained 4 commits and 29 distinct text blobs, with no binary/non-UTF8 blobs. Gitleaks 8.30.1 and the existing private-address/credential/email pattern checks reported no findings. Git integrity checks passed. This includes all fetched branches and tags, not just the current files. The final publication commit must be scanned as well; scans reduce risk but cannot prove absence of every sensitive detail.
+The pre-release remote heads matched the prior review: `main` at `537b093c0b1bce86109f86b97119684e807b5cdd` and the audited branch at `4219f563f9ec92f3b85460bb0b177c0946fa7e2f`. That fetched history contains five commits and 31 distinct UTF-8 text blobs, with no binary/non-UTF8 blobs. The established Gitleaks 8.30.1 and private-address/credential/email checks are repeated for the final release candidate, including reachable history; publication requires no findings and successful Git integrity checks. Scans reduce risk but cannot prove absence of every sensitive detail. Historical commits and their original noreply identities are preserved.
 
-Local Markdown targets resolve. SVG illustrations are sanitized explanatory diagrams, not operational screenshots; any screenshot placeholder is labeled. There are no copied production deployment files, account payloads or client records in the selected source. External GitHub project links resolve for the owner while private and will require publication before anonymous visitors can open them.
+Local Markdown targets are checked for the release. The architecture SVG is an original sanitized explanatory diagram, not an operational screenshot. The unused draft screenshot placeholder has been removed. There are no copied production deployment files, private knowledge-base contents, account payloads or client records in the selected source.
 
-## Licensing recommendation
+## License and provenance
 
-Recommend **MIT for the selected source, tests, examples and original diagrams/documentation**, subject to the owner confirming the right to license this material and retaining any required notices. No third-party package or template implementation is bundled here. Product names identify dependencies and do not imply endorsement. Source provenance does not itself prove exclusive copyright ownership.
+The [MIT License](LICENSE), copyright **2026 Michael E. Ayotte**, applies to the eligible owner-controlled source, tests, fictional examples, original diagram and documentation included here. The owner explicitly approved that license and publication. [Source provenance and authorship](CODE-REVIEW.md) retain the AI-assisted synthetic-code disclosure and historical-evidence limits.
 
-No LICENSE was applied and no licensing rights were granted by this preparation. Approve the exact license and copyright holder before publication. [MIT terms and conditions](https://choosealicense.com/licenses/mit/) require retaining the copyright and permission notice. Keep private production repositories and their separate template/content rights out of this release.
+The current files and reachable source history were reviewed for bundled third-party implementations and notices. No third-party package or template implementation is bundled, and no pre-existing license or required third-party notice has been removed. Open WebUI, Ollama, Obsidian, Nextcloud, n8n, models and indexing utilities remain separate products under their respective licenses. Their names do not imply endorsement, and this license does not relicense them, private production repositories or client material. Retain the copyright and permission notice when reusing the licensed material.
 
-## Release gate
+## Release verification
 
-Approve rights/provenance and MIT, then approve merging this review branch into main and changing this repository to PUBLIC. Recheck remote head, all reachable history and the test-only CI at that moment. Verify the rendered default README and anonymous clone after publication. Keep the npm `private` flag; public GitHub visibility does not require publishing an npm package.
+The release procedure rechecks the remote heads, final diff, tests, internal links, reachable-history privacy/security scan and test-only workflow before moving `main` and changing visibility. It then verifies the default README, license, workflow result and anonymous repository access. A passing synthetic evaluator is not an ATLAS runtime or production-readiness certification.
